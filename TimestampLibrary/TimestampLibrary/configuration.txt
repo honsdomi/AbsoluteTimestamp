@@ -1,0 +1,10 @@
+﻿tsa.primary.url=http://time.certum.pl
+tsa.primary.username=
+tsa.primary.password=
+tsa.secondary.url=http://zeitstempel.dfn.de/
+tsa.secondary.username=
+tsa.secondary.password=
+tsa.timeout=1000
+hash.algorithm=sha1
+timestamp.output=tsr
+certificate.minimum.validity=180
