@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 using System.Net;
 using Org.BouncyCastle.Asn1;
 
-namespace TimestampLibrary
+namespace AbsoluteTimestamp
 {
     /// <summary>
     /// Implementation of the <see cref="ITimestampVerifier" /> interface.

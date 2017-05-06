@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimestampLibrary", "TimestampLibrary\TimestampLibrary.csproj", "{90B64668-31D9-4EC6-8CB0-3461B811B710}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimestampLibraryTests", "TimestampLibraryTests\TimestampLibraryTests.csproj", "{F4CD15F9-EAF2-4952-91CC-7E667E3AFFC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsoluteTimestamp", "src\AbsoluteTimestamp.csproj", "{90B64668-31D9-4EC6-8CB0-3461B811B710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{90B64668-31D9-4EC6-8CB0-3461B811B710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90B64668-31D9-4EC6-8CB0-3461B811B710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90B64668-31D9-4EC6-8CB0-3461B811B710}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4CD15F9-EAF2-4952-91CC-7E667E3AFFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4CD15F9-EAF2-4952-91CC-7E667E3AFFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4CD15F9-EAF2-4952-91CC-7E667E3AFFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4CD15F9-EAF2-4952-91CC-7E667E3AFFC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

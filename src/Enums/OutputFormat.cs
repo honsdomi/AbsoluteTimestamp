@@ -1,4 +1,4 @@
-﻿namespace TimestampLibrary
+﻿namespace AbsoluteTimestamp
 {
     /// <summary>
     /// Specifies the output format of timestamp.

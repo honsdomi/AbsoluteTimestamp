@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using Org.BouncyCastle.Tsp;
 using System;
 
-namespace TimestampLibrary
+namespace AbsoluteTimestamp
 {
     internal static class Utils
     {     
@@ -17,7 +17,7 @@ namespace TimestampLibrary
             try
             {
                 Assembly _assembly = Assembly.GetExecutingAssembly();
-                StreamReader _configurationReader = new StreamReader(_assembly.GetManifestResourceStream("TimestampLibrary.configuration.txt"));
+                StreamReader _configurationReader = new StreamReader(_assembly.GetManifestResourceStream("AbsoluteTimestamp.configuration.txt"));
 
                 configuration = new Dictionary<string, string>();
 

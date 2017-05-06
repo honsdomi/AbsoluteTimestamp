@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 
-namespace TimestampLibrary
+namespace AbsoluteTimestamp
 {
     /// <summary>
     /// This class serves as a container for data that is going to be timestamped.

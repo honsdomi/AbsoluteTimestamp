@@ -6,7 +6,7 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 
-namespace TimestampLibrary
+namespace AbsoluteTimestamp
 {
     /// <summary>
     /// Implementation of the <see cref="ITimestampCreator"/> interface.
@@ -232,7 +232,7 @@ namespace TimestampLibrary
         /// Timestamp output format not provided.
         /// or
         /// Data for timestamping not provided.</exception>
-        /// <exception cref="TimestampLibrary.TimestampException">Cannot connect to TSA server.</exception>
+        /// <exception cref="AbsoluteTimestamp.TimestampException">Cannot connect to TSA server.</exception>
         /// <exception cref="TspValidationException"></exception>
         public TimestampObject CreateTimestamp()
         {

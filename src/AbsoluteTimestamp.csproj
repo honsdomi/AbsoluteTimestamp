@@ -7,8 +7,8 @@
     <ProjectGuid>{90B64668-31D9-4EC6-8CB0-3461B811B710}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TimestampLibrary</RootNamespace>
-    <AssemblyName>TimestampLibrary</AssemblyName>
+    <RootNamespace>AbsoluteTimestamp</RootNamespace>
+    <AssemblyName>AbsoluteTimestamp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\TimestampLibrary.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\AbsoluteTimestamp.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

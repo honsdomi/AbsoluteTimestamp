@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace TimestampLibrary
+namespace AbsoluteTimestamp
 {
     /// <summary>
     /// Interface for creating timestamps.

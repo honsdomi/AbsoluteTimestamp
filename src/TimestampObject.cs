@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 
-namespace TimestampLibrary
+namespace AbsoluteTimestamp
 {
     /// <summary>
     /// This class represents timestamp. 
