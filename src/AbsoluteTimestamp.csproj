@@ -66,9 +66,9 @@
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AbsoluteTimestamp.nuspec" />
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="TimestampLibrary.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="configuration.txt" />
