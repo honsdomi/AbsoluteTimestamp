@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using System.IO.Compression;
 using System.Text;
-using System.Reflection;
 using System.Collections.Generic;
 using Org.BouncyCastle.Tsp;
 using System;
@@ -12,36 +11,33 @@ namespace AbsoluteTimestamp
     {     
         private static Dictionary<string, string> configuration; 
 
-        static Utils()
+        public static void LoadConfigurationFile(string path)
         {
             try
             {
-                Assembly _assembly = Assembly.GetExecutingAssembly();
-                StreamReader _configurationReader = new StreamReader(_assembly.GetManifestResourceStream("AbsoluteTimestamp.configuration.txt"));
-
+                StreamReader configurationReader = new StreamReader(path);
                 configuration = new Dictionary<string, string>();
-
                 string line;
 
-                while ((line = _configurationReader.ReadLine()) != null)
+                while ((line = configurationReader.ReadLine()) != null)
                 {
                     string[] split = line.Split('=');
                     configuration.Add(split[0], split[1]);
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-                throw new TimestampException("Error accessing configuration file.", e);
+                throw new TimestampException("Cannot read configuration file", e);
             }
         }
 
         public static string GetConfiguration(string key)
         {
-            if (configuration.ContainsKey(key))
+            if (configuration != null && configuration.ContainsKey(key))
             {
                 return configuration[key];
             }
-            return null;
+            return "";
         }
 
         public static byte[] GetAsics(byte[] response, byte[] timestampData, bool dataIsZipped)

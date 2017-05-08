@@ -25,7 +25,7 @@ namespace AbsoluteTimestamp
 
         /// <summary>
         /// Initializes a new instance of the <see cref="TimestampCreator"/> class.
-        /// Also tries to load setting from configuration.txt file.
+        /// Also tries to load setting from configuration.
         /// </summary>
         public TimestampCreator()
         {

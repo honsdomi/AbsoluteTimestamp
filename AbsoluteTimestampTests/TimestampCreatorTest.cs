@@ -2,6 +2,7 @@
 using System;
 using System.Text;
 using AbsoluteTimestamp;
+using System.IO;
 
 namespace TimestampLibraryTests
 {
@@ -53,7 +54,7 @@ namespace TimestampLibraryTests
         public void TestCreateTimestampUsingConfigurationFile()
         {
             byte[] data = Encoding.UTF8.GetBytes(dataToTimestamp);
-
+            Utils.LoadConfigurationFile(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName +  "\\src\\configuration.txt");
             TimestampCreator creator = new TimestampCreator();
             TimestampObject timestamp = creator
                 .SetDataForTimestamping(data)

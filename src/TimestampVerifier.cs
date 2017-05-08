@@ -25,7 +25,7 @@ namespace AbsoluteTimestamp
 
         /// <summary>
         /// Initializes a new instance of the <see cref="TimestampVerifier"/> class.
-        /// Also tries to load <see cref="hashAlgorithm"/> from configuration.txt file.
+        /// Also tries to load settings from configuration.
         /// </summary>
         public TimestampVerifier()
         {

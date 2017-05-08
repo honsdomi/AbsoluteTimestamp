@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Honsdomi.AbsoluteTimestamp</id>
-    <version>1.0</version>
+    <version>1.2</version>
     <title>Absolute Timestamp</title>
     <authors>Dominik Hons</authors>
     <owners>Dominik Hons</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/honsdomi/AbsoluteTimestamp</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Library for creating and verifying RFC 3161 timestamps.</description>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes>Added configuration file load method</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>timestamp rfc3161 trusted timestamping</tags>
   </metadata>
