@@ -66,6 +66,9 @@ Items highlighted in **bold** are mandatory. For further info see ITimestampCrea
 
 
 # Configuration file
+```cs
+Utils.LoadConfigurationFile("path/to/configuration/file.txt");
+```
 Several data, required for working with timestamps, can be provided through configuration file. Static data that doesn’t change, such as credentials to access TSA, can be retrieved from this file. This way the user doesn't have to specify these settings every time he wants to create or verify a timestamp. The configuration file is a simple text file. Each row contains exactly one key-value pair of settings separated with equals sign (example: hash.algorithm=sha1). 
 
 
